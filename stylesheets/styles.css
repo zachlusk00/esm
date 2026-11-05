@@ -1,0 +1,48 @@
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid green;
+    height: 100px;
+    width: 100%;
+}
+.nav_logo {
+    width: 5%;
+    border: 1px solid green;
+}
+.nav_header {
+    width: 55%;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_buttons {
+    width: 40%;
+    border: 1px solid green;
+}
+.dashboard_container{
+    display: flex;
+    height: 100vh;
+}
+.dashboard_left_layout {
+    border-right: 1px solid black;
+    width: 22.5%;
+    height: 100vh;
+}
+.dashboard_center_layout {
+    width: 55%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard_shift_layout {
+    width: 95%;
+    height: 95%;
+    border: 1px solid black;
+}
+.dashboard_right_layout {
+    border-left: 1px solid black;
+    width: 22.5%;
+    height: 100vh;
+}
